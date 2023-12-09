@@ -1,0 +1,105 @@
+body {
+    background-color: #F0B27A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+
+#calcTitle {
+    font-size: 45px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+#usernameBlock {
+    font-size: 30px;
+    height: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#spendings {
+    background-color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #6E2C00;
+    width: 60%;
+}
+
+#spendingsAddBlock {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#spendingsAddButton {
+    font-size: 40px;
+    text-align: center;
+    color: #6E2C00;
+    background-color: white;
+    border: 2px solid #6E2C00;
+    border-radius: 10px;
+    transition: background-color 0.2s, color 0.2s;
+    width: 200px;
+}
+
+#spendingsAddButton:hover {
+    background-color: #6E2C00;
+    color: white;
+}
+
+#spendingsNone {
+    text-align: center;
+}
+
+#logoutBlock {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+
+#spendingHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#spendingName {
+    margin: 0;
+}
+
+#fileDate {
+    margin: 0;
+}
+
+#spendingsSum {
+    font-size: 20px;
+    text-align: center;
+    color: #6E2C00;
+    background-color: white;
+    border: 2px solid #6E2C00;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
